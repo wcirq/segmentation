@@ -1,0 +1,4 @@
+/venv/
+/segmentation/resources/segmentation/
+/segmentation/resources/tmp/
+/keras/models/
