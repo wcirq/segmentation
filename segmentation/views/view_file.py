@@ -56,10 +56,10 @@ def predict():
             image = image[..., :3]
         segmentation = predict_segmentation(image)
         file_name = save_segmentation(segmentation, image)
-        # url = f"http://222.85.230.14:12347/segmentation/get_segmentation?fname={file_name}"
-        # return jsonify(code=0, data={"url": url}, msg=f"ok")
-        print(url_for('segmentation.get_segmentation', fname=file_name))
-        return redirect(url_for('segmentation.get_segmentation', fname=file_name))
+        url = f"http://222.85.230.14:12347/segmentation/get_segmentation?fname={file_name}"
+        return jsonify(code=0, data={"url": url}, msg=f"ok")
+        # print(url_for('segmentation.get_segmentation', fname=file_name))
+        # return redirect(url_for('segmentation.get_segmentation', fname=file_name))
     except Exception as e:
         logger.error(f"{e}")
         return jsonify(code=500, msg=f"未知错误")

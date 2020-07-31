@@ -61,4 +61,5 @@ def load_image(url):
 
 if __name__ == '__main__':
     # load_image("https://res.gucci.cn/resources/2020/6/16/15922997452278407_ws_235X235.jpg")
-    load_image("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595938026220&di=8a55cb171a01330bd5d12ba99e184b6f&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F9fo3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2Fa8014c086e061d95d8fb4c247bf40ad162d9ca69.jpg")
+    # load_image("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1595938026220&di=8a55cb171a01330bd5d12ba99e184b6f&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F9fo3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2Fa8014c086e061d95d8fb4c247bf40ad162d9ca69.jpg")
+    load_image("https://picb.zhimg.com/50/v2-94052c6ccb4eeb99a6689c9020c2eff3_hd.jpg?source=1940ef5c")
